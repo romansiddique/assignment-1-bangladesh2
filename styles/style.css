@@ -1,5 +1,6 @@
 body{
     margin: 24px 160px;
+    background-color: rgb(245, 245, 245);
 }
 section{
     margin-bottom: 80px;
@@ -9,11 +10,11 @@ section{
     font-family: "Fira Sans", serif;
     font-style: normal;
 }
-.bangladesh2-text{
+.bangladesh2-title{
     font-size: 25px;
     font-weight: 700;
 }
-.bd2-para{
+.bd2-text{
     font-size: 18px;
     font-weight: 500;
     color: rgba(14, 14, 14, 0.5);
@@ -34,9 +35,24 @@ section{
     font-size: 15px;
     cursor: pointer;
 }
-
-
-
+.progress-items-images{
+    width: 50px;
+    height: 50px;
+}
+.progress-items-text{
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 15px;
+    font-weight: 700;
+}
+.progress-para{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 12px;
+    font-weight: 400;
+}
+.progress-title{
+    font-size: 30px;
+    font-weight: 700;
+}
 
 /* nav styles */
 nav{
@@ -81,3 +97,78 @@ nav{
 }
 
 /* vision styles */
+.visions{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    margin-top: 25px;
+}
+.vision1 , .vision2 , .vision3{
+    padding: 30px;
+    border-radius: 10px;
+    width: 33%;
+}
+.vision1{
+    background-color:rgba(84, 144, 245, 0.2);
+}
+.vision2{
+    background-color: rgb(198, 228, 214);
+}
+.vision3{
+    background-color: rgb(247, 235, 207);
+}
+.vision-btn{
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    color: white;
+    font-weight: 600;
+}
+.vision-btn1{
+    background-color: rgb(84, 144, 245);
+    margin-top: 10px;
+}
+.vision-btn1:hover{
+    background-color: rgba(84, 143, 245, 0.670);
+    cursor: pointer;
+    transition: background-color 1s;
+}
+.vision-btn2{
+    background-color: rgb(9, 161, 92);
+    margin-top: 25px;
+}
+.vision-btn2:hover{
+    background-color: rgba(9, 161, 93, 0.670);
+    cursor: pointer;
+    transition: background-color 1s;
+}
+.vision-btn3{
+    background-color: rgb(255, 194, 57);
+    margin-top: 26px;
+}
+.vision-btn3:hover{
+    background-color: rgba(255, 196, 57, 0.670);
+    cursor: pointer;
+    transition: background-color 1s;
+}
+
+/* speech dr yunus */
+.speech-dr-yunus{
+    padding: 40px 20px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+}
+.speech-dr-yunus > div{
+    background-image: url("../assets/quote-bg.png");
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-color: rgba(251, 251, 247, 0.828);
+    padding: 10px;
+    border-radius: 10px;
+}
+.speech-dr-yunus > div > .name{
+    margin-bottom: 0px;
+}
+.speech-dr-yunus > div > .progress-para{
+    color: rgba(0, 0, 0, 0.779);
+}

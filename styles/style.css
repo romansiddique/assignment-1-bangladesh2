@@ -231,6 +231,48 @@ nav{
     line-height: 20px;
 }
 
+/* donate styles */
+.donate{
+    padding: 50px;
+    background-color: rgba(255, 255, 255, 0.434);
+    border: 10px;
+}
+.donate-text{
+    text-align: center;
+}
+.donate-amount{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+.donate-amount h2{
+    padding: 30px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+}
+.donate-amount h2:hover{
+    background-color: rgba(181, 239, 212, 0.667);
+    cursor: pointer;
+}
+.donate-amount > .donate-amount200{
+    background-color: rgb(198, 228, 214);        /*when use .donate-amount200 it will not work for before use .donate-amount h2 background-color. it is CSS specificity*/
+}
+.donate-input-button{
+    text-align: center;
+}
+.donate-input-button [type = "number"]{
+    padding: 20px 40px;
+    width: 70%;
+    border: none;
+    border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+    background: rgb(255, 255, 255);
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
 /* subscribe style */
 .subscribe{
     text-align: center;

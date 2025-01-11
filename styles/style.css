@@ -165,7 +165,7 @@ nav{
 }
 .vision-btn3{
     background-color: rgb(255, 194, 57);
-    margin-top: 26px;
+    margin-top: 28px;
 }
 .vision-btn3:hover{
     background-color: rgba(255, 196, 57, 0.670);
@@ -192,6 +192,44 @@ nav{
 }
 .speech-dr-yunus > div > .progress-para{
     color: rgba(0, 0, 0, 0.779);
+}
+
+/* opinion styles */
+.opinion-container{
+    padding: 30px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+.opinion-content{
+    border: 1px solid rgba(14, 14, 14, 0.15);
+}
+.opinion-header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(198, 228, 214);
+    border: 1px solid rgba(14, 14, 14, 0.15);
+}
+.opinion-header{
+    padding: 0 15px;
+}
+.opinion{
+    display: flex;
+    justify-content: space-between;
+}
+.opinion .progress-items-text{
+    width: 70%;
+    padding-left: 15px;
+    border-right: 2px solid rgba(14, 14, 14, 0.15);
+    margin: 0 ;
+}
+.opinion1 , .opinion2{
+    border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+}
+.opinion select{
+    padding: 10px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background: rgb(198, 228, 214);
+    border-radius: 4px;
 }
 
 /* News Section */
@@ -251,13 +289,17 @@ nav{
     border: 1px solid rgba(14, 14, 14, 0.15);
     border-radius: 10px;
     background-color: rgb(255, 255, 255);
+    width: 150px;
+    text-align: center;
+    font-weight: 700;
 }
 .donate-amount h2:hover{
-    background-color: rgba(181, 239, 212, 0.667);
+    background-color: rgba(153, 227, 138, 0.756);
     cursor: pointer;
+    transition: background-color 2s;
 }
 .donate-amount > .donate-amount200{
-    background-color: rgb(198, 228, 214);        /*when use .donate-amount200 it will not work for before use .donate-amount h2 background-color. it is CSS specificity*/
+    background-color: rgb(204, 237, 222);        /*when use .donate-amount200 it will not work for before use .donate-amount h2 background-color. it is CSS specificity*/
 }
 .donate-input-button{
     text-align: center;

@@ -46,7 +46,7 @@ section{
 }
 .progress-para{
     color: rgba(14, 14, 14, 0.7);
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 400;
 }
 .progress-title{
@@ -171,4 +171,41 @@ nav{
 }
 .speech-dr-yunus > div > .progress-para{
     color: rgba(0, 0, 0, 0.779);
+}
+
+/* News Section */
+.news1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 100px;
+    padding: 40px;
+    border-radius: 24px;
+    background: rgb(255, 255, 255);
+    margin-bottom: 24px;
+    height: 300px;
+}
+.news1 img[alt="satelite image"],
+.news1 img[alt="pottery from kushtia"],
+.news1 img[alt="tatulia winter"] {
+    border-radius: 24px;
+    max-width: 50%;
+}
+.news1 img[alt="dhaka tribune"],
+.news1 img[alt="business standard"]{
+    width: 40px;
+    height: 30px;
+}
+
+.news-title{
+    font-size: 22px;
+}
+.news-time{
+    margin-left: 15px;
+}
+.news1 .bangladesh2-button{
+    margin-top: 20px;
+}
+.news1 .progress-para{
+    line-height: 20px;
 }

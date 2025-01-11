@@ -1,6 +1,8 @@
 body{
-    margin: 24px 160px;
     background-color: rgb(245, 245, 245);
+}
+main{
+    margin: 24px 160px;
 }
 section{
     margin-bottom: 80px;
@@ -72,13 +74,13 @@ nav{
     cursor: pointer;
 }
 .sign-in-button:hover{
-    background-color: rgb(0, 106, 80);
+    background-image: linear-gradient(to right, rgb(0, 106, 80) , rgba(0, 106, 80, 0.509));
     padding: 15px 30px;
     color: white;
     border-radius: 8px;
     font-weight: 600;
     font-size: 18px;
-    transition: background-color 1s , padding 1s , color 1.5s;
+    transition: background-image 1s , padding 1s , color 1.5s;
 }
 
 
@@ -88,13 +90,14 @@ nav{
     justify-content: space-between;
     align-items: center;
     border-radius: 24px;
-    background: rgb(198, 228, 214);
+    background-color: rgb(198, 228, 214);
     padding: 30px 40px;
 }
-.bangladesh2-button:hover{
-    background-color: rgba(0, 106, 80, 0.748);
-    transition: background-color 1s;
+.bangladesh2-button:hover {
+    background: linear-gradient(to right, rgb(0, 106, 80), rgba(0, 106, 80, 0.509));
+    transition: background 1s;
 }
+
 
 /* vision styles */
 .visions{
@@ -126,7 +129,7 @@ nav{
 }
 .vision-btn1{
     background-color: rgb(84, 144, 245);
-    margin-top: 10px;
+    margin-top: 28px;
 }
 .vision-btn1:hover{
     background-color: rgba(84, 143, 245, 0.670);
@@ -208,4 +211,46 @@ nav{
 }
 .news1 .progress-para{
     line-height: 20px;
+}
+
+/* subscribe style */
+.subscribe{
+    text-align: center;
+    padding: 80px 100px;
+    background-color: rgb(198, 228, 214);
+    border-radius: 20px;
+}
+.subscribe input[placeholder="Enter Your Email"]{
+    width: 400px;
+    height: 40px;
+    border: none;
+    border-radius: 8px 0px 0px 8px;  /*border-radius: top-left top-right bottom-right bottom-left;*/
+    padding: 5px 30px;
+}
+.subscribe .bangladesh2-button{
+    border-radius: 0px 8px 8px 0px;
+}
+.subscribe .input-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+}
+
+/* footer styles */
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    padding: 50px 80px;
+}
+.footer-icons img{
+    margin-right: 30px;
+}
+hr {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.899);
+    width: 50%;
+    margin-bottom: 20px
 }

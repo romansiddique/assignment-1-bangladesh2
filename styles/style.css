@@ -1,0 +1,33 @@
+body{
+    margin: 24px 160px;
+}
+/* shared styles */
+.fira-sans-font{
+    font-family: "Fira Sans", serif;
+    font-style: normal;
+}
+.bangladesh2-text{
+    font-size: 32px;
+    font-weight: 700;
+}
+
+
+
+
+/* nav styles */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.sign-in-button{
+    padding: 15px 30px;
+    border: 2px solid rgb(0, 106, 80);
+    color: rgb(0, 106, 80);
+    font-size: 18px;
+    font-weight: 600;
+    background-color: rgb(245, 245, 245);
+    border-radius: 8px;
+    cursor: pointer;
+}
